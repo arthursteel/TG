@@ -16,9 +16,10 @@ public class Usuario {
         Connection conn = null;
         try{
             Class.forName("com.mysql.Driver.Manager").newInstance();
-            String url = "jdbc:mysql://127.0.0.1/test?user=arthur&password=123";
+            String url = "http://localhost:8080/TG/login.jsp";//"jdbc:mysql://127.0.0.1/";
             conn = DriverManager.getConnection(url);
-        }catch(Exception e){}
+        }catch(Exception e){
+        }
         return conn;
     }
     public String nome="";

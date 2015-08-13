@@ -28,6 +28,6 @@
                 </tr>
             </table>
         </form>
-        <a href="login.jsp">login</a>
+        <a href="localhost:8081/TG/">login</a>
     </body>
 </html>
