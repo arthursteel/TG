@@ -28,6 +28,6 @@
                 </tr>
             </table>
         </form>
-        <a href="localhost:8081/TG/">login</a>
+        <a href="localhost:8081/TG/" action="logincheck">login</a>
     </body>
 </html>
